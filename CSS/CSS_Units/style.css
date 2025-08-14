@@ -1,0 +1,18 @@
+section{
+    /* width: 1000px; */
+    background-color: aqua;
+}
+div{
+    width: 100%;
+    width: 50%;
+    background-color: green;
+    border: 1px dotted yellow;
+}
+
+ul>li{
+    font-size: 2em;     
+    font-size: 2rem;        
+    /* by-default (16px), em: multiple the size of element by n times */
+    /* rem:root element size remain constant */
+    /* SNOWFALL EFFECT */
+}

@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+}
+
+#static #middle{
+    position: static;
+    top: 50px;
+    left: 50px;
+}
+
+#relative #middle{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#absolute #middle{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+#fixed{
+    position: relative;
+
+}
+
+#fixed #middle{
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+#sticky{
+    border: 1px solid red;
+    height: 500px;
+}
+#sticky #middle{
+    position: sticky;
+    top: 100px;
+    left: 50px; 
+}

@@ -1,0 +1,18 @@
+body{
+    font-size: large;
+}
+.sam.jain{
+    border: solid;
+}
+p.intro{
+    color: blue;
+    border: solid;
+}
+div,p{
+    border: solid;
+    border-color: indigo;   
+}
+div p {
+    background-color: red;
+    border: dashed;
+}

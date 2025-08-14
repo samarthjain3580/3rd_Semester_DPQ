@@ -1,0 +1,6 @@
+ul>li{
+    color: red;
+    font-size: 50px;
+    border: 5px solid yellow;     
+    /* border not follows the rule of inheritance */
+}

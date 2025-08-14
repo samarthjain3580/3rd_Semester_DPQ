@@ -1,0 +1,29 @@
+h1::first-line{
+    color: red;
+    font-size: larger;
+    font-family: serif;
+}
+
+p::first-letter{
+    font-size: 100px;
+    color: green;
+}
+
+p{
+    font-size: 35px;
+    color: rgb(2,16,89);
+    /* rgb(red blue green) values lies b/w (0-255) */
+}
+
+h4::after{
+    content:" from coding blocks";
+    color: rgba(15,56, 47,0.8);           
+    /* rgba (a: alpha) which defines opacity for given range(0-1)   */
+}
+
+h4::before{
+    content:"hello guys";
+    color: #479af4f8;
+    /* red(2),green(2),blue(2),alpha(2)  */
+    /* hexadecimal range from(0-9 and (A-F)) */
+}

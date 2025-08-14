@@ -1,0 +1,12 @@
+div >p{
+    color: rebeccapurple;
+}
+div +p {
+    background-color: red;
+}
+p ~ ul{
+    color: red;
+}
+div >p{
+    color: green;
+}

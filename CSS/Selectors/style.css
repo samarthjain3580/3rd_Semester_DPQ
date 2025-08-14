@@ -1,0 +1,50 @@
+/* element selector */
+h1{
+    color:blue
+}
+
+/* id selector */
+#sam{
+    font-size: x-large;
+    color: green;
+}
+
+/* class selector */
+.jain {
+    background-color: red;
+}
+
+/* universal selector */                         
+*{
+    background-color: aqua;
+    color: black;
+    border: solid;
+    /* border: 1px solid red; */
+    /* border: 5px dashed green; */
+    /* border: 5px dotted blue; */
+    /* universal selector apply CSS to all lines in html page */
+}
+
+/* attribute selector */
+input{
+    background-color: orange;
+}
+input[type="text"]{
+    background-color: yellow;
+}
+
+input[type='password']{
+    background-color: gray;
+}
+
+a[href="http://google.com"]{
+    color: blue;
+    font-size: larger;
+}
+
+a[href="http.//facebook.com"]{
+    background-color: yellow;
+    font-size: smaller;
+}
+
+
